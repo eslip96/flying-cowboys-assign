@@ -11,7 +11,6 @@ body {
 
 .nav-bar-container {
   width: 100%;
-  border: 1px solid red;
   background-color: #162037;
   position: fixed;
   z-index: 2;
@@ -47,7 +46,6 @@ body {
 .top-body-info,
 .top-bodyinfo > h2,
 .top-body-info > p {
-  border: 1px solid red;
   position: relative;
   background-image: url(/images/cowboys_standing.png);
   background-size: 100% 100%;
