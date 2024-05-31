@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-page-container {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar-container {
+  width: 100%;
+  border: 1px solid red;
+  background-color: #162037;
+  position: fixed;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+.nav-bar-container > img {
+  width: 64px;
+  height: 70px;
+  right: 10%;
+  margin-left: 47%;
+  position: inline block;
+}
+
+.hero-container video {
+  width: 100%;
+  z-index: 1;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-container > img {
+  width: 258px;
+  height: 290px;
+  bottom: 22%;
+  z-index: 1;
+  position: absolute;
+  left: 39%;
+}
+
+.top-body-info,
+.top-bodyinfo > h2,
+.top-body-info > p {
+  border: 1px solid red;
+  position: relative;
+  background-image: url(/images/cowboys_standing.png);
+  background-size: 100% 100%;
+}
+
+.top-body-info {
+  width: 100%;
+  display: block;
+  margin: auto;
+  height: 612px;
+}
+
+.top-body-info > p {
+  font-family: eb-garamond;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  top: 20%;
+  width: 669.38px;
+  height: 94.69px;
+  left: 25%;
+}
+
+.top-body-info > h2 {
+  font-family: clare;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  top: 24%;
+}
+
+.top-body-info > img {
+  text-align: center;
+  position: relative;
+  left: 46%;
+  right: 46%;
+  width: 81px;
+  height: 19px;
+  top: 10%;
+}
+
+.left-body,
+.right-body {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+  background-color: #162037;
+}
+.left-body img,
+.right-body img {
+  width: 100%;
+  height: 828px;
+}
+
+.right-body {
+  text-align: center;
+  margin: 10% 10% 10% 10%;
+}
+
+.right-body h2,
+h6 {
+  color: white;
+}
+
+.right-body h2 {
+  font-family: MuseoModerno;
+  font-size: 44px;
+}
+
+.right-body h5 {
+  color: #e21c21;
+  font-family: MuseoModerno;
+  font-size: 18px;
+}
+
+.right-body {
+  font-size: 18px;
+}
+
+.right-body > img {
+  width: 185px;
+  height: 180px;
+  border-radius: 96px;
+  filter: grayscale(100%);
+}
+
+.right-body > p {
+  color: white;
+  font-family: eb-garamond;
+  font-size: 16px;
+  margin: 55px;
+  text-align: justify;
+}
